@@ -1,0 +1,49 @@
+/*
+ Theme Name:   A Taster Tastes
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Sixteen Child child theme for A Taster Tastes
+ Author:       Gothbag
+ Author URI:   http://example.com
+ Template:     twentysixteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentysixteen-atastertastes
+*/
+
+@media (min-width: 992px) {
+	.review_table {
+		width: 50%;
+
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.review_table {
+		width: 60%;
+
+	}
+}
+
+@media (min-width: 387px) and (max-width: 767px) {
+	.review_table {
+		width: 75%;
+
+	}
+}
+
+.review_table {
+	border: 2px solid black;
+}
+
+.review_table td {
+	border-bottom: none;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
